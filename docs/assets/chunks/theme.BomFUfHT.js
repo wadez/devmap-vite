@@ -1,0 +1,1 @@
+import{d as s,u as r,o as c,c as p,a as m,F as _,b as e,r as u}from"./framework.DihHMwfR.js";const l=e("nav",{class:"flex items-center"},[e("a",{href:"/"},"Home"),e("a",{href:"/pages/about"},"About")],-1),f=s({__name:"Layout",setup(a){return r(),(t,o)=>{const n=u("Content");return c(),p(_,null,[l,m(n)],64)}}}),i={Layout:f,enhanceApp({app:a,router:t,siteData:o}){}};export{i as R};

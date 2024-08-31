@@ -1,5 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html {
-  font-family: Arial, Helvetica;
+@layer base {
+    body {
+        @apply bg-amber-50 p-4
+    }
+
+    a {
+        @apply underline text-blue-600 decoration-dotted hover:decoration-solid
+    }
+
+    .prose {
+        @apply space-y-6 max-w-[60ch] w-full mx-auto block
+    }
+
+    .prose h1 {
+        @apply text-6xl mb-3 mt-8
+    }
 }
-
